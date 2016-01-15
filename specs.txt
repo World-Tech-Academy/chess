@@ -1,0 +1,31 @@
+REQUIREMENTS
+1) Make a responsive chessboard
+2) Make the Piece object constructor
+3) Create the Rook and Bishop constructors with a getTargets function, and have them inherit from Piece
+4) Create the Queen constructor and have its getTargets function inherit from both Rook and Bishop
+5) Create the Knight constructor
+6) Create the Pawn constructor. Make sure to account for the 2-space rule.
+7) Create the King constructor.
+8) Populate the chessboard with pieces- use unicode for the piece images.
+9) When clicking a piece, highlight its square and the squares it can move to
+10) Allow pieces to move and capture other pieces
+11) Only allow a player to move one of his pieces if it's his turn
+12) Prevent the King from moving or capturing into check
+
+BONUS:
+*(You REALLY probably won't have time for ANY of these, but you should DEFINITELY think of how you would implement these)
+1) Display the match history: what color and type of piece moved from where to where, and did it capture something?
+2) Implement an undo/redo feature. If you want to get REAL fancy, have ctrl-z and ctrl-y respectively initiate undo and redo in addition to buttons
+3) Don't let a player end a turn with the king in check - automatically undo any move that results with own king in check
+4) Implement Castling (4,5: HINT: consider using board history)
+5) Implement En Passante
+6) Implement a "check for checkmate" button (if you pull this off, you have truly accomplished something great)
+7) Implement formal chess notation instead of our own informal version
+8) Provide the option of viewing pre-recorded famous chess matches from history
+9) Create a stupid opponent bot that will make a random move until checkmate
+10) Keep track of and display the time each player spends and have a player lose if they reach the end of their clock
+
+
+String.fromCharCode(parseInt(2654, 16))
+
+vw

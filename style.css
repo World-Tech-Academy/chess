@@ -1,0 +1,55 @@
+h1 {
+  text-align:center;
+}
+.row {
+	line-height:0;
+	clear:both;
+}
+.cell {
+	float:left;
+	width:5.625vw;
+	height:5.625vw;
+	font-size:5.5vw;
+	text-align:center;
+	line-height:5.3vw;
+	-moz-box-sizing:border-box;
+   	-webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    border: 1px solid black;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.white-cell {
+	background-color:lightgray;
+}
+.black-cell {
+	background-color:darkgray;
+}
+#chess-board{
+	width: 45vw;
+	border: 2px solid black;
+	box-shadow: 10px 10px 5px #888888;
+	margin-left:auto;
+	margin-right:auto;
+	line-height:0;
+	position:relative;
+	overflow:hidden;
+}
+.cell.selected{
+	border: 3px solid red;
+}
+.cell.target{
+	border: 3px solid lightgreen;
+}
+#history-container{
+	position: absolute;
+	top: 20px;
+	left:20px;
+}
+.target:hover{
+	background-color:white;
+}

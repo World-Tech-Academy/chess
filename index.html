@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chess</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body onload="createBoard()">
+    <h1>CHESS</h1>
+    <div id="chess-board"></div>
+    <div id="history-container">
+      <button onclick="popHistory()">UNDO</button>
+      <button onclick="redoHistory()">REDO</button>
+      <ol id="history"></ol>
+    </div>
+    <script src="chess.js"></script>
+  </body>
+</html>
